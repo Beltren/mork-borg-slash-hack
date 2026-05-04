@@ -1,0 +1,35 @@
+{
+  "id": "mork-borg-slash-hack",
+  "title": "Mork Borg /hack Combat",
+  "description": "Faster, brutaler /hack combat roller for the Mork Borg Foundry VTT system.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Abero + Codex"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "morkborg",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/slash-hack.js"
+  ],
+  "styles": [
+    "styles/slash-hack.css"
+  ],
+  "url": "https://github.com/Beltren/mork-borg-slash-hack",
+  "manifest": "https://raw.githubusercontent.com/Beltren/mork-borg-slash-hack/master/module.json",
+  "download": "https://github.com/Beltren/mork-borg-slash-hack/releases/download/v0.0.1/mork-borg-slash-hack.zip"
+}

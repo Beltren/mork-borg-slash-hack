@@ -1,0 +1,33 @@
+.slash-hack-dialog .form-group {
+  align-items: center;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 130px 1fr;
+  margin: 6px 0;
+}
+
+.slash-hack-dialog input.slash-hack-readonly,
+.slash-hack-dialog input.slash-hack-readonly:focus {
+  background: rgba(128, 128, 128, 0.15);
+  border-color: transparent;
+  box-shadow: none;
+  color: var(--color-text-dark-secondary, #666);
+  cursor: default;
+}
+
+.slash-hack-card {
+  color: inherit;
+}
+
+.slash-hack-note {
+  margin: 4px 0 8px;
+}
+
+.slash-hack-card ol {
+  margin: 6px 0 0 20px;
+  padding: 0;
+}
+
+.slash-hack-total .roll-title {
+  font-weight: bold;
+}
